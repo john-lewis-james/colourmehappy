@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  text-align:center;
+}
+
+body{
+    width:1200px;
+    height:1200px;
+    text-align:center;
+}
+
+div {
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+span{
+   clear:right;
+   text-align:center;
+}
+
+
+.div1{
+    background-color:hsl(300, 76%, 52%);
+}
+
+.div2{
+    background-color:hsl(32, 86%, 45%);
+}
+
+.div3{
+    background-color:hsl(184, 90%, 50%);
+}
+
+.div4{
+    background-color:hsl(357, 93%, 37%);
+}
+
+.div5{
+    background-color:hsl(66, 99%, 46%);
+}
+
+.div6{
+    background-color:hsl(261, 69%, 38%);
+}
+
+.div7{
+    background-color:hsl(125, 74%, 23%);
+}
+
+.div8{
+    background-color:hsl(106, 100%, 52%);
+}
+
+/*to invert colors, every value of HSL would be the same except for Hue, which will be +/-180 */
+
+.div1:hover{
+    background-color:hsl(120, 76%, 52%);
+    
+}
+
+.div2:hover{
+    background-color:hsl(152, 86%, 45%);
+    
+}
+
+.div3:hover{
+    background-color:hsl(4, 90%, 50%);
+    
+}
+
+.div4:hover{
+    background-color:hsl(177, 93%, 37%);
+    
+}
+.div5:hover{
+    background-color:hsl(246, 99%, 46%);
+    
+}
+
+.div6:hover{
+    background-color:hsl(181, 69%, 38%);
+    
+}
+
+.div7:hover{
+    background-color:hsl(305, 74%, 23%);
+    
+}
+
+.div8:hover{
+    background-color:hsl(286, 100%, 52%);
+    
+}
